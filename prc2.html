@@ -1,0 +1,30 @@
+---
+layout: page
+permalink: /prc2
+---
+<style type="text/css" media="screen">
+    .drag-list {
+        background-color: white;
+        line-height: 3em;
+        border: 1px solid #cccccc;
+        cursor: pointer;
+    }
+    .list-obj {
+        padding: 1em;
+    }
+</style>
+
+<div>
+    <h3>Drag&Drop2</h3>
+    <p>JavaScriptによるドラッグアンドドロップの練習</p>
+</div>
+<div>
+    <ul class="drag-list">
+        <li id="list1" draggable="true" class="list-obj">1. list1</li>
+        <li id="list2" draggable="true" class="list-obj">2. list2</li>
+        <li id="list3" draggable="true" class="list-obj">3. list3</li>
+        <li style="height: 0em;border:0; list-style-type:none;">&nbsp;</li>
+    </ul>
+</div>
+
+<script type="text/javascript" src="{{ site.baseurl }}/assets/js/prc2.js"></script>

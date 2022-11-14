@@ -1,0 +1,27 @@
+---
+layout: page
+permalink: /prc1
+---
+<style type="text/css" media="screen">
+    .box {
+        width: 50px; 
+        height: 50px;
+        background-color: red;
+    }
+</style>
+
+<div>
+    <h3>Drag&Drop1</h3>
+    <p>JavaScriptによるドラッグアンドドロップの練習<br>
+    まずはシンプルなものから。</p>
+</div>
+<div>
+    <div class="box" id="item1" draggable="true"></div>
+    <ul class="drag-list">
+        <li id="list1" draggable="true">1. list1</li>
+        <li id="list2" draggable="true">2. list2</li>
+        <li id="list3" draggable="true">3. list3</li>
+    </ul>
+</div>
+
+<script type="text/javascript" src="{{ site.baseurl }}/assets/js/prc1.js"></script>
