@@ -61,5 +61,21 @@ GitHubフリーではGithub Actionの時間が1月あたりで決まっている
 - 要素の右寄せ
 > - [https://www.acky.info/tips/css/00002.html](https://www.acky.info/tips/css/00002.html)  
 
+- ondragstartに関して
+> - [http://alphasis.info/2014/03/javascript-dom-event-ondragstart/](http://alphasis.info/2014/03/javascript-dom-event-ondragstart/)  
+
+- dataTransfer
+> - [https://developer.mozilla.org/ja/docs/Web/API/DataTransfer](https://developer.mozilla.org/ja/docs/Web/API/DataTransfer)  
+別になくても動いたのはなぜだろう？
+
+- draggableプロパティ
+なくても動作する。しかしあったほうが動作が安定する。
+
+- ondragover
+ondragoverイベントのpreventDefaultをなくすとドロップイベントが動かなくなった。
+
+- 8. ondragover以降のスクリプトについて
+何故か`<script>`タグでソースが指定できなくなった。なぜ？  
+直接打ち込むと動いた。
 
 ## 見え方をデータに変換する

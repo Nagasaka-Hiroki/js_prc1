@@ -23,6 +23,7 @@ permalink: /prc3
         background-color: red;
         border-radius: 25px;
         z-index: 1000;
+        text-align: center;
     }
     .box_b {
         width: 50px;
@@ -30,6 +31,7 @@ permalink: /prc3
         background-color: blue;
         border-radius: 25px;
         z-index: 1000;
+        text-align: center;
     }
 </style>
 
@@ -39,9 +41,9 @@ permalink: /prc3
 </div>
 <div>
     <ul class="drag-list">
-        <li id="list1" class="list-obj">1. list1<div class="plate"><div class="box_r"></div><div class="box_b"></div></div></li>
-        <li id="list2" class="list-obj">2. list2<div class="plate"><div class="box_r"></div><div class="box_b"></div></div></li>
-        <li id="list3" class="list-obj">3. list3<div class="plate"><div class="box_r"></div><div class="box_b"></div></div></li>
+        <li id="list1" class="list-obj">1. list1<div class="plate"><div class="box_r" draggable="true">r</div><div class="box_b" draggable="true">b</div></div></li>
+        <li id="list2" class="list-obj">2. list2<div class="plate"><div class="box_r" draggable="true">r</div><div class="box_b" draggable="true">b</div></div></li>
+        <li id="list3" class="list-obj">3. list3<div class="plate"><div class="box_r" draggable="true">r</div><div class="box_b" draggable="true">b</div></div></li>
         <li style="height: 0em;border:0; list-style-type:none;">&nbsp;</li>
     </ul>
 </div>

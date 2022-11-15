@@ -22,7 +22,7 @@ title: Practical JavaScript
 #email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   このサイトはJavaScriptを学習することが目的です。
-  この文章は"description"を編集することで変更できます。
+  この文章は"_config.ymlのdescription"を編集することで変更できます。
 baseurl: "/js_prc1" # the subpath of your site, e.g. /blog
 url: "https://nagasaka-hiroki.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb

@@ -20,7 +20,7 @@ item1.onmousedown = function(event){
     function onMouseMove(event){
         moveAt(event.pageX, event.pageY);
     };
-
+    //自分自身のイベントに他のイベントを紐付けしている（そのためaddEventListenerを使う)
     document.addEventListener('mousemove',onMouseMove);
     item1.onmouseup = function() {
         document.removeEventListener('mousemove',onMouseMove);

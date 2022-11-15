@@ -1,0 +1,28 @@
+---
+layout: page
+permalink: /prc4
+---
+<style>
+    #sample_drag_b{
+        padding: 0 5px;
+        border: 1px solid gray;
+        background-color: yellow;
+        cursor: pointer;
+    }
+</style>
+<p>javascript ondragstartによるドラッグ開始の検出</p>
+
+<p>
+    <span id="sample_drag_b" draggable="true">サンプルドラッグ</span>
+</p>
+<p>
+    ドラッグ操作回数:<span id="sample_output_b" style="margin-left: 10px;">0</span>
+</p>
+<p>参考</p>
+<ul>
+    <li>
+        <a href="http://alphasis.info/2014/03/javascript-dom-event-ondragstart/">ondragstartイベント</a>
+    </li>
+</ul>
+
+<script type="text/javascript" src="{{ site.baseurl }}/assets/js/prc4.js"></script>
